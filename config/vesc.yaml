@@ -1,0 +1,22 @@
+# VESC Params
+rate: 20.0 # rate to run the node in hz
+ramp_time: 3.0 # maximum time it take for the vesc to reach a commanded value (sec)
+cooldown_time: 3.0 # time after a trigger command has been send before the vescs turn off (sec)
+command_timeout: 30.0  # max time a command will stay active waiting for a trigger signal (sec) 
+
+# Geometry Params
+geometry/wheel_radius: 0.03 # radius of the launcher wheel in m\
+geometry/num_motor_poles: 7 # number of motor poles
+
+# Limits Params
+limits/rpm_accel: 800.0 # rpm acceleration limit in rpm/sec
+limits/duty_cycle_accel: 2.0 # duty cycle acceleration limit in %/sec
+limits/max_rpm: 2500 # max rpm value for the vesc
+
+# Calibration Params
+calibration/rpm_m: 0.95339 # RPM calibration slope from regression analysis
+calibration/rpm_b: -0.77448 # RPM calibration offset from regression analysis
+calibration/fudge_m: 1.0 # fudge factor for motor commands, should be driven to zero with a well calibrated system
+calibration/fudge_b: 0.0 # fudge factor for motor commands, should be driven to zero with a well calibrated system
+
+

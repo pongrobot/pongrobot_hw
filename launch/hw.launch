@@ -2,5 +2,6 @@
   <group ns="hw">
     <include file="$(find pongrobot_hw)/launch/imu.launch">
     <include file="$(find pongrobot_hw)/launch/launcher.launch">
+    <include file="$(find pongrobot_hw)/launch/vesc.launch">
   </group>
 </launch>

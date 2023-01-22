@@ -1,0 +1,6 @@
+<launch>
+    <group ns="vesc">
+        <rosparam file="$(find pongrobot_hw)/config/vesc.yaml" />
+        <node name="vesc_node" pkg="pongrobot_hw" type="vesc_node.py" output="screen" args="/dev/ttyACM0 /dev/ttyACM1" />
+    </group>
+</launch>
