@@ -1,0 +1,6 @@
+<launch>
+  <group ns="hw">
+    <include file="$(find pongrobot_hw)/launch/imu.launch">
+    <include file="$(find pongrobot_hw)/launch/launcher.launch">
+  </group>
+</launch>
