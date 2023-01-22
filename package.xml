@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pongrobot_hw</name>
+  <version>2.0.0</version>
+  <description>Pongrobot HW interface package</description>
+
+  <maintainer email="andrew@andrewtgutierrez.com">Andrew Gutierrez</maintainer>
+  <license>BSD</license>
+  <author email="andrew@andrewtgutierrez.com">Andrew Gutierrez</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2_ros</depend>
+
+</package>
+
